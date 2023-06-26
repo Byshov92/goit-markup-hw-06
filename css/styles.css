@@ -242,6 +242,7 @@ button {
 }
 
 .advantages-container {
+
 }
 
 .advantages-title {
@@ -328,7 +329,9 @@ button {
 .team {
   width: 100%;
   background-color: var(--light-bg-color);
-  padding: 96px 82px;
+  /* padding: 96px 82px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .team-title {
@@ -425,8 +428,9 @@ button {
 
 /**CUSTOMERS**/
 .customers {
-    width: 100%;
-  /* padding: 96px 16px; */
+  width: 100%;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-title {
@@ -437,6 +441,7 @@ button {
   text-transform: capitalize;
   color: var(--main-color);
   margin-bottom: 72px;
+  
 }
 
 .customers-list {
@@ -996,6 +1001,7 @@ button {
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
+    
   }
 }
 
@@ -1093,7 +1099,8 @@ flex-basis: calc((100% - 2 * 24px) / 3);
   }
 
   .team {
-    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .team-list {
@@ -1102,6 +1109,11 @@ flex-basis: calc((100% - 2 * 24px) / 3);
 
   .team-item {
     margin-bottom: 0;
+  }
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .customers-list {
